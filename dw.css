@@ -1,0 +1,33 @@
+@media only screen and (min-width: 1024px){
+#imagem{
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#imagem2{
+    position: relative;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+#imagem5{
+    position: relative;
+    margin-top: 180px;
+}
+
+#imagem6{
+    position: relative;
+    margin-top: 100px;
+}
+
+#imagem{
+    position: relative;
+    margin-top: 90px;
+}
+
+#imagem4{
+    position: relative;
+    margin-top: 100px;
+}
+}

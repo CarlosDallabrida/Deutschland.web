@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deutschland.web</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body class="bg-gradient">
+
+    <div class="container-fluid">
+   
+   <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="Flag_of_Germany.svg.png" width="40px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://youtu.be/9FrG3EZAPZs?si=MlsSSvc-IkF7PTgY">MÚSICAS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.google.com.br/maps/place/Alemanha/">MAPA</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="historia.html">HISTÓRIA</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="row m-2">
+    <div class="col-3 mt-3 text-center">
+        <a href="https://www.deutschland.de/"><img src="Coat_of_arms_of_Germany.svg.png" alt="brasaoalemanha" width="70px"></a>
+    </div>
+  
+    <div class="col-6 text-bg-primary h1 border border-3 border-dark text-center p-3">
+        DW <br>
+        <div class="h6"> Deutschland.web</div>
+    </div>
+    <div class="col-3 text-center">
+        <a href="https://www.visitberlin.de/en"><img src="DEU_Berlin_COA.svg.png" alt="brasao" width="70px"></a>
+    </div>
+    
+</div>
+
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="alemanha-58-cat.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="berlim-banner.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="berlim-111-c.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+   <div class="row text-center h1  border border-3 border-dark m-2">
+        <div class="col-sm-3 border border-3 border-dark text-bg-success">
+            Esporte
+            <div class="text-black bg-white">
+                A maior influência no desporto alemão vem da Bundesliga. É considerada uma das ligas mais fortes a nível internacional. As equipas nacionais masculina e feminina estão entre 
+                as mais bem-sucedidas do mundo. Para além do futebol, a ginástica, o atletismo e o andebol são também desportos muito populares.
+            </div>
+        </div>
+        <div class="col-sm-3 border border-3 border-dark text-bg-secondary">
+            Política
+            <div class="text-black bg-white">
+                A Alemanha é uma democracia constitucional federal, cujo sistema político foi criado com a constituição de 1949, chamada Grundgesetz (Lei Básica). Tem um sistema parlamentar 
+                em que o chefe de governo, o Bundeskanzler (Chanceler), é eleito pelo parlamento.
+            </div>
+        </div>
+        <div class="col-sm-3 border border-3 border-dark text-bg-warning">
+            Cultura
+            <div class="text-black bg-white">
+                O povo alemão é mundialmente conhecido pela forma franca de conversar com as pessoas e expor a sua opinião. Por isso cuidado para não interpretar como grosseria ou falta de 
+                educação, é apenas um traço da cultura alemã predominante em sua população e nas relações interpessoais.
+            </div>
+        </div>
+        <div class="col-sm-3 border border-3 border-dark text-bg-danger">
+            Educação
+            <div class="text-black bg-white">
+                O sistema escolar está dividido verticalmente em três níveis: primário, secundário I e secundário II. Como regra, todas as crianças no nível primário frequentam uma escola 
+                primária comum, que vai da 1ª à 4ª série Berlim. Mas os berlinenses estão acostumados com o interesse global.
+            </div>
+        </div>
+    </div>
+
+    <div class="row m-2"><i class="bi bi-person-circle"></i>
+      <div class="col-12 text-center h1 text-bg-info">
+          <h2> CADASTRE-SE </h2>
+      </div>
+    </div>
+  
+  <div class="row m-2 text-center">
+      <div id="dados" class="text-bg-light">
+          <h2>Dados pessoais:</h2>
+      </div>
+      
+      <form action="processar-dados.php" method="POST"></form>
+          <div class="col-sm-4">
+              <label for="nome">Nome:</label>
+              <input type="text" id="formularionome" name="nome" required>
+          </div>
+          <div class="col-sm-4">
+              <label for="idade">Idade:</label>
+              <input type="number" id="formularioidade" name="idade" required>
+          </div>
+          <div class="col-sm-4">
+              <label for="email">Profissão:</label>
+              <input type="text" id="formularioprofissao" name="profissao" required>
+          </div>
+          <div id="dadose">
+              <h2 class="text-bg-light">Endereços:</h2>
+          </div>
+          <div class="col-sm-4">
+              <label for="email">Email:</label>
+              <input type="text" id="formularioemail" name="email" required>
+          </div>
+          <div class="col-sm-4">
+              <label for="telefone">Telefone:</label>
+              <input type="number" id="formulariotelefone" name="telefone" required>
+          </div>
+          <div class="col-sm-4">
+              <label for="email">Endereço:</label>
+              <input type="text" id="formularioendereco" name="endereco" required>
+          </div>
+         
+      </form>
+  </div>
+  <div id="enviado" class="row m-2 text-center">
+  <button class="text-bg-light">ENVIAR</button>
+  </div>
+
+    <script src="testesjs4.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</div>
+</body>
+</html>
